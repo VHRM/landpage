@@ -1,3 +1,3 @@
 # landpage
 
-LandPage created for Audax's intern selection
+LandPage created for Audax's internship selection
