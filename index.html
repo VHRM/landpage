@@ -2,91 +2,149 @@
 <html lang='pt-br'>
     <head>
         <title>Consiga seu estagiário</title>
+        
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css "href="./styles/style.css">
+
     </head>
     <body>
-        <nav>
-            <h1>VHRM</h1>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contrate já</a></li>
-            </ul>
-        </nav>
-        <header>
-            <img src="./images/15130051591200.jpg" alt="">
-            <div class="info">
-                <h1>Contrate o melhor estagiário desse site</h1>
-                <h2>Escolha o funcionário que melhor se adequa à sua empresa</h2>
-                <a href="#vhrm"><img src="./images/wall-e.jpg" alt=""></a>
-                <p>Vladson H. R. Marinho</p>
-                <form action="">
-                    <div class="nome">
-                        <label for="lnome">Nome:</label><input type="text">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <span class="navbar-brand mb-0 h1">VHRM</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contrate">Contrate já</a></li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+        
+        
+        <header class="container banner mb-5">
+         <div class="row justify-content-end">
+                <div class="col-md-6">
+                    <div class="card banner-card shadow">
+                        <div class="card-body">
+                            <h3 class="card-title">Contrate o melhor candidato(desse site)</h1>
+                            <h4 class="card-subtitle mb-2 text-muted">Escolha o funcionário que melhor se adequa à sua empresa</h2>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" class="form-control" id="nome">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Contrate Já</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="email">
-                        <label for="lemail">Email:</label><input type="email">
-                    </div>
-                    <div class="contrate">
-                        <input type="submit" value="Contrate Já">
-                    </div>
-                </form>
+                </div>   
             </div>
         </header>
-        <div class="p1">
-            <div class="p1-1">
+
+        <div class="container separator mb-5"><hr class="hr-style"></div>
+
+        <div class="container" id="sobre">
+            <div class="row justify-content-around">
                 <h1>Por que Vladson Henrique?</h1>
-                <p> Estudante do CIn, apaixonado por robôs e tecnologia.
-                    Comecei a programar com a robotica participando de campeonatos mas, desde então,
-                    a paixão pela programação so fez crescer e acabei por abrir meus horizontes para
-                    outras áreas. Atualmente sigo com uma fixação pela área de segurança e flertando com
-                    o desenvolvimento web.
-                </p>
-                <p>
-                    É perceptível que entrei no ramo por paixão e continuei nele por amor, amor este que
-                    me impulsiona na busca de me aprimorar e sentir que estou sendo útil e fazendo o que faço
-                    bem feito.
-                </p>
             </div>
-            <div class="p1-2">
-                <h1>Competências</h1>
-                <p> Posso ser útil de várias formas: desde conversando sobre os mais variados assuntos, 
-                    sendo seu ombro amigo, explicando as respostas para perguntas filosóficas sobre a vida("Afinal, a piscina foi
-                    inventada ou descoberta?") e até programando algumas coisas para você.
-                </p>
-            </div>
-        </div>
-        <div class="p2">
-            <div class="p2-1">
-                <div class="quote">
-                    <p>"Por favor, empreguem meu filho, não aguento mais ver ele em casa o tempo todo nas férias"</p>
-                </div>
-                    <h1>Mãe, Minha</h1>
-            </div>
-            <div class="p2-2">
-                <div class="quote">
-                    <p>"Meu sobrinho é muito competente, já formatou meu computador diversas vezes e quando minha impressora quebra
-                    <p>"Por favor, empreguem meu filho, não aguento mais ver ele em casa o tempo todo nas férias"</p>
-                        sempre sei com quem devo contar para resolver o problema"
+            <div class="row justify-content-around mb-5">
+                <div class="col-md-6">
+                    <p class="text-left"> Estudante do CIn, apaixonado por robôs e tecnologia.
+                        Comecei a programar com a robotica, participando de campeonatos e, desde então,
+                        a paixão pela programação so fez crescer e acabei por abrir meus horizontes para
+                        outras áreas.
                     </p>
                 </div>
-                <h1>Tio, Meu</h1>
-            </div>
-            <div class="p2-3">
-                <div class="quote">
-                    <p>"Ahn? Falar bem sobre tu? E tem o que falar?!"</p>
+                <div class="col-md-6">
+                    <p>
+                        É perceptível que entrei no ramo por paixão e continuei nele por amor. Amor este que
+                        me impulsiona na busca de me aprimorar e sentir que estou sendo útil e fazendo o que faço
+                        bem feito.
+                    </p>    
                 </div>
-                <h1>Amigo, Melhor</h1>
+            </div>
+            <div class="row justify-content-around mb-5">
+                <h1 class="w-100 text-center">Competências</h1>
+                <div class="col-md-6">
+                    <p> Posso ser útil de várias formas: desde conversando sobre os mais variados assuntos, 
+                        sendo seu ombro amigo, explicando as respostas para perguntas filosóficas sobre a vida("Afinal, a piscina foi
+                        inventada ou descoberta?") e até programando algumas coisas para você.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/wall-e.jpg" alt="carrinho robotico com personagem Wall-e em cima dele" class="img-thumbnail">
+                </div>
             </div>
         </div>
-        <div class="p3">
-            <h1>Experiências acumuladas:</h1>
-            <!--Exibir info do github aqui-->
+
+        <div class="container separator mb-5"><hr class="hr-style"></div>
+
+        <div class="container quotes">
+            <div class="row justify-content-center">
+                <h1>Recomendações</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <blockquote class="blockquote quote">
+                        <p class="mb-0">"Por favor, empreguem meu filho, não aguento mais ver ele em casa o tempo todo nas férias"</p>
+                        <footer class="blockquote-footer">Mãe</footer>
+                    </blockquote>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <blockquote class="blockquote quote">
+                        <p class="mb-0">"Meu sobrinho é muito competente, já formatou meu computador diversas vezes e quando minha impressora quebra
+                            eu sempre sei com quem posso contar
+                        </p>
+                        <footer class="blockquote-footer">Tio</footer>
+                    </blockquote>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <blockquote class="blockquote quote">
+                        <p class="mb-0">"Ahn? Falar bem sobre tu? E tem o que falar?!"</p>
+                        <footer class="blockquote-footer">Melhor amigo</footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
-        <div class="p4">
-            <div class="p4-1">
-                <img src="" alt="">
-                <a href="" class="button">Contrate Já</a>
+
+        <div class="container separator mb-5"><hr class="hr-style"></div>
+
+        <div class="container" id="p3">
+            <h1 class="text-center">Experiências acumuladas:</h1>
+            <div class="row">
+                <div class="col" id="profile"></div>
+                <div class="col" id="repos"></div>
+            </div>
+            <!--Exibir info do github aqui-->
+
+        </div>
+
+        <div class="container separator mb-5"><hr class="hr-style"></div>
+
+
+        <div class="container" id="contrate">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Preparado para receber seu novo estagiário?</h1>
+                </div>
+            <div class="row">
+                <div class="col-md justify-content-end">
+                    <a href="#" class="btn btn-success">Contrate Já</a>
+                </div>
             </div>
         </div>
     </body>
+    <script src="main.js"></script>
 </html>
+
+
